@@ -1,0 +1,16 @@
+*{border: 1px dotted black}
+
+body {
+    background-color: rgb(21, 95, 169);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 12px; */
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+}
