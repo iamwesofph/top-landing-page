@@ -1,0 +1,247 @@
+/* * {border: red solid 2px;} */
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    /* background-color: #1F2937; */
+}
+
+.navbar {
+    /* border: black solid; */
+    /* background-color: chartreuse; */
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    flex-basis: 50px;    
+    justify-content: space-between;
+    /* justify-content: stretch; */
+    padding: 10px 200px;
+}
+
+.navbar-l {
+    /* border: blue solid; */
+    color: #F9FAF8;
+    flex-shrink: 0;
+    font-size: 24px;
+    /* flex-grow: 2; */
+}
+
+.navbar-r {
+    /* border: blue solid; */
+    color: #E5E7EB;
+    display: flex;
+    gap: 20px;
+    /* flex-grow: 1; */
+}
+
+.hero {
+    /* border: black solid; */
+    background-color: #1F2937;
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 100px 200px;
+    
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+}
+
+.hero-l {
+    /* border: red solid; */
+    /* height: 250px; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-around;     */
+    flex: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 400px; */
+    /* flex-basis: 0; */
+    padding-right: 40px;
+}
+
+.hero-r {
+    /* border: red solid;   */
+    /* background-color: dodgerblue; */
+    background-color: gray;
+    color: #E5E7EB;
+    /* height: 250px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 200px; */
+    /* flex-basis: 0; */
+    max-width: 100%;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    /* align-items: center; */
+}
+
+.signup-btn-1 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 6px 18px;
+    width: 140px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.info-box {
+    background-color: white;
+    display: flex;
+    height: 450px;
+}
+
+.quote-box-1 {
+    background-color:  #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    gap: 20px;
+    padding: 100px 300px;
+}
+
+.quote-1 {
+    font-style: italic;
+    font-size: 36px;
+    text-align: justify;
+}
+
+.from {
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.action-box {
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 350px;
+    /* flex: 1; */
+    padding: 100px 200px;
+}
+
+.dodger-box {
+    background-color: #3882F6;
+    /* width: 1200px; */
+    /* height: 140px; */
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 50px 100px;
+}
+
+.action-left {
+    color: #F9FAF8 ;
+}
+
+.action-header {
+    font-size: 24px;
+}
+
+.action-direction {
+    color: #E5E7EB;
+    font-weight: 0;
+    margin-top: 2px;
+}
+
+.signup-btn-2 {
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 6px 18px;
+    width: 140px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: white;
+    background: transparent;
+    /* margin-left: 100px; */
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}  
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px 300px;
+    gap: 50px;
+}
+
+.info-header {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.info-cards {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex: 1;
+    gap: 50px;
+}
+
+.info-btn {
+    border-radius: 18px;
+    /* padding: 6px 18px; */
+    width: 170px;
+    height: 170px;
+    /* font-size: 18px; */
+    border: #3882F6 4px solid;
+    background: transparent;
+    /* margin-left: 100px; */
+}
+
+.wrapped-text {
+    word-wrap: break-word;
+    /* max-width: fit-content; */
+}
+
+.info-cards div {
+    flex: 1;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: gray;
+
+}
